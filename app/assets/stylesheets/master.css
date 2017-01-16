@@ -1,0 +1,304 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial;
+}
+
+h1{
+	color:red
+}
+
+h6{
+
+}
+
+.comic-date{
+	font-style: italic;
+}
+
+#comic-navigation{
+}
+
+#comic-navigation li{
+	display:inline;
+	height: 100%;
+	/*padding-left: 5px;*/
+	/*padding-right: 5px;*/
+}
+
+#comic-main{
+	margin:auto;
+	width: 75%;
+	min-height: 600px;
+}
+
+.comic-image{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.list-all-comics{
+	width:100%;
+}
+
+.list-all-comics a{
+	color: #d68f00;
+}
+
+
+.list-all-comics a:visited {
+	color: #a87000;
+}
+
+.list-all-comics tr:nth-child(even) {
+	background-color: #ffc;
+}
+
+#comic > img{
+}
+
+#comic-and-nav-wrapper{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+#first-comic a{
+	text-decoration:none;
+	color: #FFF;
+}
+
+#first-link:hover{
+	color: #ff00a3;
+	background-color: #ff00a3;
+}
+
+#first-comic{
+	color: #FFF;
+	width: 5%;
+}
+
+#first-link {
+	background: #FFF url("http://www.noncanon.online/nav/firstarrow.gif") no-repeat center;
+	min-height: 600px;
+	height: 100%;
+}
+
+#previous-comic a{
+	text-decoration:none;
+	color: #FFF;
+}
+
+#previous-comic{
+	color: #FFF;
+	width: 10%;
+}
+
+#previous-link:hover{
+	color: #42ff00;
+	background-color: #42ff00;
+}
+
+#previous-link {
+	background: #FFF url("http://www.noncanon.online/nav/prevarrow.gif") no-repeat center;
+	min-height: 600px;
+	height: 100%;
+}
+
+#comic-image{
+}
+
+#next-comic{
+	color: #FFF;
+	width: 10%;
+}
+
+#next-link:hover{
+	color: #f0ff00;
+	background-color: #f0ff00;
+}
+
+#next-comic a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#next-link {
+	background: #FFF url("http://www.noncanon.online/nav/nextarrow.gif") no-repeat center;
+	min-height: 600px;
+	height: 100%;
+}
+
+#last-comic{
+	color: #FFF;
+	width: 5%;
+}
+
+#last-comic a{
+	text-decoration:none;
+	color: #FFF;
+}
+
+#last-link:hover{
+	color: #00fcff;
+	background-color: #00fcff;
+}
+
+#last-link {
+	background: #FFF url("http://www.noncanon.online/nav/lastarrow.gif") no-repeat center;
+	min-height: 600px;
+	height: 100%;
+}
+
+#comic-footer{
+	height: 250px;
+}
+
+#comic-footer a{
+	color: #fff;
+}
+
+#comic-footer h1{
+	color: #000000;
+	margin:0px;
+	padding:0px;
+	font-size: 2em;
+}
+
+#footer-wrapper p{
+	font-size: .9em;
+
+}
+
+#footer-wrapper{
+	margin-left:10%;
+	margin-right:10%;
+}
+#footer-column1{
+	width: 20%;
+	float: left;
+}
+
+#footer-column2{
+	width: 56%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#footer-column3{
+	width: 20%;
+	float: left;
+}
+
+ul.admin-nav {
+	padding: 0px;
+	margin: 0px;
+}
+
+.admin-nav li{
+	list-style-type: none;
+	padding-right: 8px;
+	float:left;
+}
+
+.comic-title {
+	max-width: 600px;
+	margin: auto;
+}
+
+h4.comic-title {
+  text-align: center;
+  font-weight: normal;
+	/*color: #AE7400;*/
+}
+
+h5.comic-date{
+  text-align: center;
+  font-weight: normal;
+	/*color: #AE7400;*/
+}
+
+ul#search-results{
+  list-style-type: none;
+}
+
+#search-result-form{
+  width: 75%;
+  margin: auto;
+}
+
+li.single-result{
+  list-style-type: none;
+}
+
+a.orange-link{
+	color: #d68f00;
+}
+
+.orange-bg{
+	background: #fdb60a;
+}
+
+#comic_search{
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 4%;
+  padding-left: 80%;
+  padding-top: .25%;
+}
+
+#logo-header{
+  padding-top: 4%;
+  padding-left: 10%;
+}
+
+.random-link{
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.margin-top-0{
+  margin-top: 0;
+}
+
+.margin-bottom-0{
+  margin-bottom: 0;
+}
+
+.padding-top-0{
+  padding-top: 0px;
+}
+
+.padding-bottom-0{
+  padding-bottom: 0px;
+}
+
+.padding-top-5{
+  padding-top: 5px;
+}
+
+.padding-bottom-5{
+  padding-bottom: 5px;
+}
+
+.padding-top-10{
+  padding-top: 10px;
+}
+
+.padding-bottom-10{
+  padding-bottom: 10px;
+}
+
+#login-form{
+  min-height: 400px;
+  width: 50%;
+  margin: auto;
+}

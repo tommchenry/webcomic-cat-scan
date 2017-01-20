@@ -5,7 +5,7 @@ default: &default
 
 development:
   <<: *default
-  database: webcomics_development
+  database: catscan_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -13,10 +13,10 @@ development:
 
 test:
   <<: *default
-  database: webcomics_test
+  database: catscan_test
 
 production:
   <<: *default
-  database: webcomics_production
-  username: webcomics-engine
-  password: <%= ENV['WEBCOMICS_ENGINE_DATABASE_PASSWORD'] %>
+  database: catscan_production
+  username: webcomics-catscan
+  password: <%= ENV['WEBCOMICS_CATSCAN_DATABASE_PASSWORD'] %>

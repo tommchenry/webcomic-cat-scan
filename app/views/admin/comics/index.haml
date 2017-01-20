@@ -1,5 +1,5 @@
 = render "admin/comics/admin_navigation"
-%div.current-comics
+%div.current-comics.padding--1bottom.width--90.margin--auto
   %h2
     New Comic
   =form_for ([:admin,@comic]) do |f|
@@ -17,20 +17,20 @@
     =f.text_field :keywords
     =f.submit
 
-  %h2.comic-title
+  %h2.padding--1top
     All Comics
   %table.list-all-comics
     -@comics.each do |comic|
       %tr
-        %td
+        %td.text--center
           =comic.id if comic.id
         %td
           =link_to comic.title, comic_path(comic.url_slug)
         %td
           =comic.post_date.strftime("%B %-d, %Y at %I:%M %P") if comic.post_date
-        %td
+        %td.text--center
           ="Visible" if comic.visible
-        %td
+        %td.text--center
           =link_to 'Edit', edit_admin_comic_path(comic.id)
-        %td
+        %td.text--center
           =link_to 'Delete', admin_comic_path(comic.id), method: :delete

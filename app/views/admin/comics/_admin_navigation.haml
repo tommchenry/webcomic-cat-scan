@@ -1,3 +1,4 @@
-%ul.admin-nav
-  %li
+%ul
+  %li.bullet--none.padding--1left.padding--0top
+    = "Welcome, #{current_user.name}"
     = link_to 'Logout', logout_path 

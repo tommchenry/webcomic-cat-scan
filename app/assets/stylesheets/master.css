@@ -67,90 +67,90 @@ h6{
 }
 
 #first-comic a{
-	text-decoration:none;
-	color: #FFF;
+	/*text-decoration:none;*/
+	/*color: #FFF;*/
 }
 
 #first-link:hover{
-	color: #ff00a3;
-	background-color: #ff00a3;
+	/*color: #ff00a3;*/
+	/*background-color: #ff00a3;*/
 }
 
 #first-comic{
-	color: #FFF;
-	width: 5%;
+	/*color: #FFF;*/
+	/*width: 5%;*/
 }
 
 #first-link {
-	background: #FFF url("http://www.noncanon.online/nav/firstarrow.gif") no-repeat center;
-	min-height: 600px;
-	height: 100%;
+	/*background: #FFF url("http://www.noncanon.online/nav/firstarrow.gif") no-repeat center;*/
+	/*min-height: 600px;*/
+	/*height: 100%;*/
 }
 
 #previous-comic a{
-	text-decoration:none;
-	color: #FFF;
+	/*text-decoration:none;*/
+	/*color: #FFF;*/
 }
 
 #previous-comic{
-	color: #FFF;
-	width: 10%;
+	/*color: #FFF;*/
+	/*width: 10%;*/
 }
 
 #previous-link:hover{
-	color: #42ff00;
-	background-color: #42ff00;
+	/*color: #42ff00;*/
+	/*background-color: #42ff00;*/
 }
 
 #previous-link {
-	background: #FFF url("http://www.noncanon.online/nav/prevarrow.gif") no-repeat center;
-	min-height: 600px;
-	height: 100%;
+	/*background: #FFF url("http://www.noncanon.online/nav/prevarrow.gif") no-repeat center;*/
+	/*min-height: 600px;*/
+	/*height: 100%;*/
 }
 
 #comic-image{
 }
 
 #next-comic{
-	color: #FFF;
-	width: 10%;
+	/*color: #FFF;*/
+	/*width: 10%;*/
 }
 
 #next-link:hover{
-	color: #f0ff00;
-	background-color: #f0ff00;
+	/*color: #f0ff00;*/
+	/*background-color: #f0ff00;*/
 }
 
 #next-comic a{
-	text-decoration: none;
-	color: #FFF;
+	/*text-decoration: none;*/
+	/*color: #FFF;*/
 }
 
 #next-link {
-	background: #FFF url("http://www.noncanon.online/nav/nextarrow.gif") no-repeat center;
-	min-height: 600px;
-	height: 100%;
+	/*background: #FFF url("http://www.noncanon.online/nav/nextarrow.gif") no-repeat center;*/
+	/*min-height: 600px;*/
+	/*height: 100%;*/
 }
 
 #last-comic{
-	color: #FFF;
-	width: 5%;
+	/*color: #FFF;*/
+	/*width: 5%;*/
 }
 
 #last-comic a{
-	text-decoration:none;
-	color: #FFF;
+	/*text-decoration:none;*/
+	/*color: #FFF;*/
 }
 
 #last-link:hover{
-	color: #00fcff;
-	background-color: #00fcff;
+	/*color: #00fcff;*/
+	/*background-color: #00fcff;*/
 }
 
 #last-link {
-	background: #FFF url("http://www.noncanon.online/nav/lastarrow.gif") no-repeat center;
-	min-height: 600px;
-	height: 100%;
+	/*background: #FFF url("http://www.noncanon.online/nav/lastarrow.gif") no-repeat center;*/
+	/*min-height: 600px;*/
+	/*height: 100%;*/
 }
 
 #comic-footer{
@@ -192,11 +192,6 @@ h6{
 #footer-column3{
 	width: 20%;
 	float: left;
-}
-
-ul.admin-nav {
-	padding: 0px;
-	margin: 0px;
 }
 
 .admin-nav li{
@@ -322,4 +317,39 @@ a.orange-link{
 
 .padding--1top{
   padding-top: 1em;
+}
+
+.padding--1left{
+  padding-top: 1em;
+}
+
+.padding--1right{
+  padding-top: 1em;
+}
+
+.padding--0bottom{
+  padding-bottom: 0;
+}
+
+.padding--0top{
+  padding-top: 0;
+}
+
+.padding--0left{
+  padding-top: 0;
+}
+
+.padding--0right{
+  padding-top: 0;
+}
+.width--90{
+  width: 90%;
+}
+
+.margin--auto{
+  margin: auto;
+}
+
+.bullet--none{
+  list-style-type: none;
 }
